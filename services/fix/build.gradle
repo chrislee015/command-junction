@@ -1,0 +1,6 @@
+plugins {
+    id 'buildlogic.spring-shell-service-conventions'
+}
+
+dependencies {
+}
