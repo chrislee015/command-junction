@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+java {
+    toolchain {
+        // According to instructions Java 25
+        // languageVersion = JavaLanguageVersion.of(25) // Wait for Java 25 support or use latest compatible
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
