@@ -8,6 +8,7 @@ include(':common:spring-support:testing')
 
 include(':common:core')
 include(':common:cli')
+include(':common:cli:output')
 include(':common:config')
 include(':common:http')
 include(':common:process')
