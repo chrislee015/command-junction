@@ -1,4 +1,5 @@
 plugins {
     id 'buildlogic.java-conventions'
+    id 'buildlogic.testing-conventions'
     id 'java-library'
 }

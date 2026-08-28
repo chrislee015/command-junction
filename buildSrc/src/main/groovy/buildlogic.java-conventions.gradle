@@ -2,6 +2,10 @@ plugins {
     id 'java'
 }
 
+repositories {
+    mavenCentral()
+}
+
 java {
     toolchain {
         // According to instructions Java 25

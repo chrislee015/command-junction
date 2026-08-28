@@ -1,0 +1,8 @@
+plugins {
+    id 'buildlogic.spring-shell-service-conventions'
+}
+
+dependencies {
+    implementation project(':common:core')
+    implementation project(':common:process')
+}

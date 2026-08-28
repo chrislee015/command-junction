@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    // testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation libs.junit.jupiter
 }
 
 tasks.named('test') {
