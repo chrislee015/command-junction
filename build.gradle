@@ -1,0 +1,10 @@
+plugins {
+    id 'java-platform'
+}
+
+group = 'com.commandjunction'
+version = '1.0.0-SNAPSHOT'
+
+dependencies {
+    // Constraints if necessary, though most manage via versions catalog
+}

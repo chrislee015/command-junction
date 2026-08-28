@@ -1,0 +1,4 @@
+plugins {
+    id 'buildlogic.java-conventions'
+}
+// Placeholder for Spotbugs, Checkstyle, PMD, ErrorProne

@@ -1,0 +1,8 @@
+plugins {
+    id 'buildlogic.cj-native-application-conventions'
+}
+
+dependencies {
+    implementation project(':common:spring-support:core')
+    // Placeholder for other project dependencies
+}

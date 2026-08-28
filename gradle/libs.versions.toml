@@ -1,0 +1,25 @@
+[versions]
+java = "25"
+springBoot = "4.0.0-SNAPSHOT" # placeholder for Boot 4
+springShell = "3.4.0-SNAPSHOT" # placeholder for latest
+errorProne = "2.26.1"
+errorPronePlugin = "4.1.0"
+spotbugsPlugin = "6.0.9"
+pmd = "7.0.0"
+checkstyle = "10.14.2"
+spotless = "6.25.0"
+jacoco = "0.8.11"
+junit = "5.10.2"
+
+[libraries]
+# We'll populate these as we need them
+spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter", version.ref = "springBoot" }
+spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "springBoot" }
+spring-shell-starter = { module = "org.springframework.shell:spring-shell-starter", version.ref = "springShell" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
+error-prone = { id = "net.ltgt.errorprone", version.ref = "errorPronePlugin" }
+spotbugs = { id = "com.github.spotbugs", version.ref = "spotbugsPlugin" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }

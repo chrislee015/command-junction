@@ -1,0 +1,4 @@
+plugins {
+    id 'buildlogic.java-conventions'
+}
+// Placeholder for GraalVM native image plugin and configuration
